@@ -1,0 +1,32 @@
+.Header {
+    background-color: rgb(42, 46, 51);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header-Pages {
+    display: flex;
+    flex-direction: row;
+}
+
+.Header-Socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.Header-Button {
+    color:yellow;
+    text-align: center;
+    width: 5vh;
+    padding: 3vh 3vh;
+    font-size: large;
+}
+
+
+.Header-Social-Image {
+    height: 5vmin;
+    pointer-events: none;
+    position: right;
+    padding: 1vh 3vh;
+  }
