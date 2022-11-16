@@ -13,7 +13,6 @@ root.render(
   <React.StrictMode>
     <Header />
     <Home />
-    <FavProjects />
   </React.StrictMode>
 );
 
