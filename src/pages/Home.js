@@ -1,5 +1,5 @@
-import FavProjects from './FavProjects.js'
-import "./Home.css"
+import FavProjects from '../Components/FavProjects.js'
+import "../css/Home.css"
 
 // Welcome title with short text underneath, talking about my passions etc.
 function Home() {
@@ -9,7 +9,7 @@ function Home() {
                 <div className="Home">
                     <h1> Greetings</h1>
                     <div className="HomeText">
-                        <p>I am currently a Graduate Bachelor Computer Scientist.
+                        <p>My name is Roel de Jeu. I am currently a Graduate Bachelor Computer Scientist.
                         My passion lies within developing software.
                         I also have a passion for developing games
                         and for games in general.</p>

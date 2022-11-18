@@ -1,16 +1,17 @@
 import githubLogo from '../svgs/github-logo.svg'
 import itchioLogo from '../svgs/itchio-logo.svg'
 import linkedinLogo from '../svgs/linkedin-logo.svg'
-import './Header.css';
+import '../css/Header.css';
+import {Link} from "react-router-dom";
 
 
 function HeaderButton(props) {
     return (
-        <a href={props.link}>
+        <Link to={props.link}>
         <div className = "Header-Button">
             <p>{props.name}</p>
         </div>
-        </a>
+        </Link>
     )
 }
 
@@ -29,9 +30,9 @@ function Header() {
     <div className="Header">
       <div className="HeaderWrapper">
         <div className="Header-Pages">
-          <HeaderButton name="Home" link="https://roeliefantje.github.io/"/>
-          <HeaderButton name="Projects" link="https://roeliefantje.github.io/"/>
-          <HeaderButton name="Education" link="https://roeliefantje.github.io"/>
+          <HeaderButton name="Home" link="/"/>
+          <HeaderButton name="Projects" link="/Projects"/>
+          <HeaderButton name="Education" link="/Education"/>
         </div>
         <div className="Header-Socials">
           <HeaderSocialButton name="LinkedIn" source={linkedinLogo} link="https://www.linkedin.com/in/roel-de-jeu-82217b207/"/>

@@ -1,1 +1,0 @@
-// Header top, List of Projects on the left, when clicked, rest of the site changes to that project.
