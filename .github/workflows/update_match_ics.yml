@@ -2,7 +2,8 @@ name: refresh ics
 
 on:
   schedule:
-    - cron: "30 11 * * *"    #runs at 11:30 UTC everyday
+    - cron: "*/5 * * * *"
+    #- cron: "30 11 * * *"    #runs at 11:30 UTC everyday
 
 jobs:
   getdataandrefreshmap:
